@@ -1,3 +1,7 @@
+<?php
+include 'inc/functions.php';
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -9,7 +13,7 @@
     <body>
      <div id="main">  
         <?php
-        include 'inc/functions.php';
+        
     
         play();
         ?>

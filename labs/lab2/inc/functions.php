@@ -1,9 +1,17 @@
 <?php
 
+ function play(){
+        for ($i = 1; $i<=3; $i++){
+            ${"randomValue" . $i } = rand(0,3);
+            displaySymbol(${"randomValue" . $i}, $i );
+        }
+        displayPoints($randomValue1, $randomValue2, $randomValue3);
+     
+        }
 
 function displaySymbol($randomValue, $pos){
 
-       
+       $symbol;
        switch ($randomValue) {
            case 0: $symbol = "seven";
                  break;
@@ -24,10 +32,15 @@ function displayPoints($randomValue1, $randomValue2, $randomValue3) {
                switch ($randomValue1) {
                    case 0: $totalPoints = 1000;
                    echo "<h1>Jackpot!</h1>";
+                        // <audio autoplay="autoplay" controls="controls">  ;
+                        // <source src="/cst352/labs/lab2/img/slot-machine-daniel_simon.mp3" /> ;
+                        // </audio>;
                    break;
                    case 1: $totalPoints = 500;
                    break;
                    case 2: $totalPoints = 250;
+                   break;
+                   case 3: $totalPoints = 900;
                    break;
                    
                }
@@ -41,14 +54,7 @@ function displayPoints($randomValue1, $randomValue2, $randomValue3) {
 }
        
        
-        function play(){
-        for ($i; $i<3; $i++){
-            ${"randomValue" . $i } = rand(0,2);
-            displaySymbol(${"randomValue" . $i}, $i );
-        }
-        displayPoints($randomValue1, $randomValue2, $randomValue3);
-     
-        }
+       
         
 
 ?>

@@ -85,3 +85,7 @@ h1 {
 #content {
     float: center;
 }
+
+hr {
+    width: 50%;
+}
