@@ -1,0 +1,17 @@
+h1,
+body {
+
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+h2 {
+    text-align: center;
+    font-family: serif;
+}
+
+
+
+.ace {
+    border: 2px yellow solid;
+}
