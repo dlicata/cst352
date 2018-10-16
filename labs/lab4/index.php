@@ -2,17 +2,25 @@
 
  //print_r($_GET);
  
-    $randomBackground = "/cst352/labs/lab4/Slider/img/sea.jpg";
+    $randomBackground = "img/sea.jpg";
  
     if ( isset($_GET['keyword']) )  //checks whether form has been submitted
     {
         
-        include 'Slider/api/pixabayAPI.php';
-        
+        include 'api/pixabayAPI.php';
         
     $keyword = $_GET['keyword'];
     
-     $imageURLs = getImageURLs($keyword);
+    $layout = "horizontal";
+    if (isset($_GET['layout'])) {
+        $layout = $_GET['layout'];
+    }
+    
+    if(!empty($_GET['category'])) {
+        $keyword = $_GET['category'];
+    }
+    
+     $imageURLs = getImageURLs($keyword, $layout);
      
      $randomIndex = array_rand($imageURLs);
      
@@ -21,6 +29,7 @@
      //print_r($imageURLs);
     
     echo "you searched for: <strong>" . $keyword . "</strong> ";
+    
     
     shuffle($imageURLs);
     }
@@ -31,11 +40,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" type="text/css" />
+        <title>Lab 4: Image Slider</title>
         <style>
-        @import url("Slider/css/styles.css");
         
-        body{
+        body {
             background-image: url(<?=$randomBackground?>);
             background-size: cover;
         }
@@ -46,12 +54,30 @@
         }
         
         </style>
-        <title>Lab 4: Image Slider</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" type="text/css" />
+        <link rel="stylesheet" href="/cst352/labs/lab4/css/styles.css" type="text/css" />
     </head>
     <body>
         
-     <form method="GET">
-         <input type="text" name="keyword" size="15" placeholder="keyword"/>
+        <br>
+        
+     <form method="GET"> 
+         <input type="text" name="keyword" size="15" placeholder="Keyword" value="<?=$_GET["keyword"]?>"/>
+         <input type="radio" name="layout" value="horizontal" id="hlayout"/>
+         <label for="hlayout">Horizontal</label>
+         
+         <input type="radio" name="layout" value="vertical" id="vlayout"/>
+         <label for="vlayout">Vertical</label>
+         
+         <select name="category">
+             <option> Select One</option>
+             <option> Mountains</option>
+             <option> Sea</option>
+             <option> Sky</option>
+             <option value="snow"> Winter</option> 
+         </select>
+         
+         
          <input type="submit" name="submitBtn" value="Submit"/>
      </form>
      
@@ -82,7 +108,7 @@
   </a>
 </div>
     
-            
+           
     <h1>You must type a keyword or select a category</h1>
     
     

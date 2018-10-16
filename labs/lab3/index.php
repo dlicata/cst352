@@ -49,7 +49,7 @@
         
         for($i=1;$i<=5; $i++){
             $card = rand(1,13);
-        echo "<img src ='cards/".$suit[rand(0,3)]."/$card.png' alt='$card' height='300' width='300' title='$card'/>";
+        echo "<img src ='cards/".$suit[rand(0,3)]."/$card.png' alt='$card' height='150' width='150' title='$card'/>";
       }
     }
     
