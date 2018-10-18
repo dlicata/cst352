@@ -1,0 +1,40 @@
+html {
+    text-align: center;
+}
+
+body {
+    background-color: #AE8799;
+}
+
+img {
+    width: 50%;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p{
+     font-family: 'Oswald', sans-serif;
+     font-size: 100px;
+     color: #496DDB;
+}
+
+link:focus {
+    outline:0;
+    
+}
+
+authorinfo: {
+    
+   outline:0;
+}
+
+authorId: {
+    
+   outline:0;
+}

@@ -1,0 +1,62 @@
+[16-Oct-2018 18:02:47 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 4
+[16-Oct-2018 18:02:47 UTC] PHP Stack trace:
+[16-Oct-2018 18:02:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab5/index.php:0
+[16-Oct-2018 18:03:31 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 4
+[16-Oct-2018 18:03:31 UTC] PHP Stack trace:
+[16-Oct-2018 18:03:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab5/index.php:0
+[16-Oct-2018 18:05:13 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 4
+[16-Oct-2018 18:05:13 UTC] PHP Stack trace:
+[16-Oct-2018 18:05:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab5/index.php:0
+[16-Oct-2018 18:05:52 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 4
+[16-Oct-2018 18:05:52 UTC] PHP Stack trace:
+[16-Oct-2018 18:05:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab5/index.php:0
+[16-Oct-2018 18:07:12 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 4
+[16-Oct-2018 18:07:12 UTC] PHP Stack trace:
+[16-Oct-2018 18:07:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab5/index.php:0
+[16-Oct-2018 18:09:18 UTC] PHP Warning:  include(/cst352/sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 3
+[16-Oct-2018 18:09:18 UTC] PHP Stack trace:
+[16-Oct-2018 18:09:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab5/index.php:0
+[16-Oct-2018 18:09:18 UTC] PHP Warning:  include(): Failed opening '/cst352/sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 3
+[16-Oct-2018 18:09:18 UTC] PHP Stack trace:
+[16-Oct-2018 18:09:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab5/index.php:0
+[16-Oct-2018 18:09:18 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 4
+[16-Oct-2018 18:09:18 UTC] PHP Stack trace:
+[16-Oct-2018 18:09:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab5/index.php:0
+[16-Oct-2018 18:09:38 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 4
+[16-Oct-2018 18:09:38 UTC] PHP Stack trace:
+[16-Oct-2018 18:09:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab5/index.php:0
+[16-Oct-2018 18:11:06 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 4
+[16-Oct-2018 18:11:06 UTC] PHP Stack trace:
+[16-Oct-2018 18:11:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab5/index.php:0
+[16-Oct-2018 18:11:08 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 4
+[16-Oct-2018 18:11:08 UTC] PHP Stack trace:
+[16-Oct-2018 18:11:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab5/index.php:0
+[16-Oct-2018 18:11:52 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 4
+[16-Oct-2018 18:11:52 UTC] PHP Stack trace:
+[16-Oct-2018 18:11:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab5/index.php:0
+[16-Oct-2018 18:12:26 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 4
+[16-Oct-2018 18:12:26 UTC] PHP Stack trace:
+[16-Oct-2018 18:12:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab5/index.php:0
+[16-Oct-2018 18:12:37 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 4
+[16-Oct-2018 18:12:37 UTC] PHP Stack trace:
+[16-Oct-2018 18:12:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab5/index.php:0
+[16-Oct-2018 19:22:58 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 71
+[16-Oct-2018 19:30:26 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 72
+[16-Oct-2018 19:32:02 UTC] PHP Fatal error:  Call to undefined function displayRandomQuotes() in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 66
+[16-Oct-2018 19:32:02 UTC] PHP Stack trace:
+[16-Oct-2018 19:32:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab5/index.php:0
+[16-Oct-2018 19:32:06 UTC] PHP Fatal error:  Call to undefined function displayRandomQuotes() in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 66
+[16-Oct-2018 19:32:06 UTC] PHP Stack trace:
+[16-Oct-2018 19:32:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab5/index.php:0
+[16-Oct-2018 19:33:30 UTC] PHP Fatal error:  Call to undefined function displayRandomQuotes() in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 61
+[16-Oct-2018 19:33:30 UTC] PHP Stack trace:
+[16-Oct-2018 19:33:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab5/index.php:0
+[16-Oct-2018 19:33:33 UTC] PHP Fatal error:  Call to undefined function displayRandomQuotes() in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 61
+[16-Oct-2018 19:33:33 UTC] PHP Stack trace:
+[16-Oct-2018 19:33:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab5/index.php:0
+[16-Oct-2018 19:33:34 UTC] PHP Fatal error:  Call to undefined function displayRandomQuotes() in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 61
+[16-Oct-2018 19:33:34 UTC] PHP Stack trace:
+[16-Oct-2018 19:33:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab5/index.php:0
+[16-Oct-2018 19:33:34 UTC] PHP Fatal error:  Call to undefined function displayRandomQuotes() in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 61
+[16-Oct-2018 19:33:34 UTC] PHP Stack trace:
+[16-Oct-2018 19:33:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab5/index.php:0
