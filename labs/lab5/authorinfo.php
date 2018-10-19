@@ -29,7 +29,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="/cst352/labs/lab5/styles.css" type="text/css" />
+        <link rel="stylesheet" href="styles.css" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
         
         <title>Author Info </title>
