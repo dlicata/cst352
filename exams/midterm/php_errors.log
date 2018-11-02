@@ -1,0 +1,27 @@
+[25-Oct-2018 18:50:14 UTC] PHP Warning:  include(/cst352/sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/exams/midterm/practice/practice_program2.php on line 5
+[25-Oct-2018 18:50:14 UTC] PHP Stack trace:
+[25-Oct-2018 18:50:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/exams/midterm/practice/practice_program2.php:0
+[25-Oct-2018 18:50:14 UTC] PHP Warning:  include(): Failed opening '/cst352/sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/exams/midterm/practice/practice_program2.php on line 5
+[25-Oct-2018 18:50:14 UTC] PHP Stack trace:
+[25-Oct-2018 18:50:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/exams/midterm/practice/practice_program2.php:0
+[25-Oct-2018 18:50:14 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/exams/midterm/practice/practice_program2.php on line 6
+[25-Oct-2018 18:50:14 UTC] PHP Stack trace:
+[25-Oct-2018 18:50:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/exams/midterm/practice/practice_program2.php:0
+[25-Oct-2018 18:50:26 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/exams/midterm/practice/practice_program2.php on line 5
+[25-Oct-2018 18:50:26 UTC] PHP Stack trace:
+[25-Oct-2018 18:50:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/exams/midterm/practice/practice_program2.php:0
+[25-Oct-2018 18:50:26 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/exams/midterm/practice/practice_program2.php on line 5
+[25-Oct-2018 18:50:26 UTC] PHP Stack trace:
+[25-Oct-2018 18:50:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/exams/midterm/practice/practice_program2.php:0
+[25-Oct-2018 18:50:26 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/exams/midterm/practice/practice_program2.php on line 6
+[25-Oct-2018 18:50:26 UTC] PHP Stack trace:
+[25-Oct-2018 18:50:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/exams/midterm/practice/practice_program2.php:0
+[25-Oct-2018 18:50:28 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/exams/midterm/practice/practice_program2.php on line 5
+[25-Oct-2018 18:50:28 UTC] PHP Stack trace:
+[25-Oct-2018 18:50:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/exams/midterm/practice/practice_program2.php:0
+[25-Oct-2018 18:50:28 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/exams/midterm/practice/practice_program2.php on line 5
+[25-Oct-2018 18:50:28 UTC] PHP Stack trace:
+[25-Oct-2018 18:50:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/exams/midterm/practice/practice_program2.php:0
+[25-Oct-2018 18:50:28 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/exams/midterm/practice/practice_program2.php on line 6
+[25-Oct-2018 18:50:28 UTC] PHP Stack trace:
+[25-Oct-2018 18:50:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/exams/midterm/practice/practice_program2.php:0

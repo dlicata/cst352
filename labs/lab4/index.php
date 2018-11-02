@@ -63,6 +63,7 @@
         
      <form method="GET"> 
          <input type="text" name="keyword" size="15" placeholder="Keyword" value="<?=$_GET["keyword"]?>"/>
+        
          <input type="radio" name="layout" value="horizontal" id="hlayout"/>
          <label for="hlayout">Horizontal</label>
          

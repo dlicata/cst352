@@ -1,14 +1,57 @@
-[18-Oct-2018 18:37:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE q_admin
-            WHERE username = 'dlicata'
-            AND password = ' at line 2' in /home/ubuntu/workspace/cst352/labs/lab6/loginProcess.php:19
+[30-Oct-2018 17:29:46 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst352/labs/lab6/main.php on line 48
+[30-Oct-2018 17:38:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'picture' cannot be null' in /home/ubuntu/workspace/cst352/labs/lab6/addAuthor.php:34
 Stack trace:
-#0 /home/ubuntu/workspace/cst352/labs/lab6/loginProcess.php(19): PDOStatement->execute()
+#0 /home/ubuntu/workspace/cst352/labs/lab6/addAuthor.php(34): PDOStatement->execute(Array)
 #1 {main}
-  thrown in /home/ubuntu/workspace/cst352/labs/lab6/loginProcess.php on line 19
-[18-Oct-2018 18:38:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE q_admin
-            WHERE username = 'admin'
-            AND password = 'e' at line 2' in /home/ubuntu/workspace/cst352/labs/lab6/loginProcess.php:19
+  thrown in /home/ubuntu/workspace/cst352/labs/lab6/addAuthor.php on line 34
+[30-Oct-2018 17:41:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'picture' cannot be null' in /home/ubuntu/workspace/cst352/labs/lab6/addAuthor.php:34
 Stack trace:
-#0 /home/ubuntu/workspace/cst352/labs/lab6/loginProcess.php(19): PDOStatement->execute()
+#0 /home/ubuntu/workspace/cst352/labs/lab6/addAuthor.php(34): PDOStatement->execute(Array)
 #1 {main}
-  thrown in /home/ubuntu/workspace/cst352/labs/lab6/loginProcess.php on line 19
+  thrown in /home/ubuntu/workspace/cst352/labs/lab6/addAuthor.php on line 34
+[30-Oct-2018 17:45:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'gender' cannot be null' in /home/ubuntu/workspace/cst352/labs/lab6/addAuthor.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/labs/lab6/addAuthor.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/labs/lab6/addAuthor.php on line 34
+[30-Oct-2018 17:45:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'picture' cannot be null' in /home/ubuntu/workspace/cst352/labs/lab6/addAuthor.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/labs/lab6/addAuthor.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/labs/lab6/addAuthor.php on line 34
+[30-Oct-2018 17:46:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'picture' cannot be null' in /home/ubuntu/workspace/cst352/labs/lab6/addAuthor.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/labs/lab6/addAuthor.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/labs/lab6/addAuthor.php on line 34
+[30-Oct-2018 17:56:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'picture' cannot be null' in /home/ubuntu/workspace/cst352/labs/lab6/addAuthor.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/labs/lab6/addAuthor.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/labs/lab6/addAuthor.php on line 34
+[30-Oct-2018 18:02:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'picture' cannot be null' in /home/ubuntu/workspace/cst352/labs/lab6/addAuthor.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/labs/lab6/addAuthor.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/labs/lab6/addAuthor.php on line 34
+[30-Oct-2018 18:03:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'picture' cannot be null' in /home/ubuntu/workspace/cst352/labs/lab6/addAuthor.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/labs/lab6/addAuthor.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/labs/lab6/addAuthor.php on line 34
+[30-Oct-2018 18:03:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'gender' cannot be null' in /home/ubuntu/workspace/cst352/labs/lab6/addAuthor.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/labs/lab6/addAuthor.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/labs/lab6/addAuthor.php on line 34
+[30-Oct-2018 18:03:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'picture' cannot be null' in /home/ubuntu/workspace/cst352/labs/lab6/addAuthor.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/labs/lab6/addAuthor.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/labs/lab6/addAuthor.php on line 34
+[30-Oct-2018 18:03:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'picture' cannot be null' in /home/ubuntu/workspace/cst352/labs/lab6/addAuthor.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/labs/lab6/addAuthor.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/labs/lab6/addAuthor.php on line 34
+[01-Nov-2018 18:24:04 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/cst352/labs/lab6/main.php on line 26

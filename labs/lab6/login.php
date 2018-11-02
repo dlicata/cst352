@@ -1,3 +1,13 @@
+<?php
+session_start();
+
+// if(empty($_SESSION['username'])) {
+//  echo 'incorrect username/ password please try again.' ;
+// }
+ 
+ 
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
