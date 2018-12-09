@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> </title>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1>Rate this video:</h1>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/XQBwrsElVog" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+        <input type="radio" name="stars" id="stars" value="one"> One<br>
+        <input type="radio" name="stars" id="stars" value="two"> Two<br>
+        <input type="radio" name="stars" id="stars" value="three"> Three<br>
+        <input type="radio" name="stars" id="stars" value="four"> Four<br>
+        <input type="button" id="btn" value="Rate">
+        
+       
+   
+
+    <h2>Average Rating: </h2>
+
+
+
+ <script>
+             $("#btn").click(function() {
+                console.log("test");
+                $("#btn").attr("disabled",true);
+            });
+        </script>
+
+    
+
+</body>
+
+</html>

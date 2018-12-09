@@ -1,0 +1,30 @@
+[09-Dec-2018 02:56:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'pets'' in /home/ubuntu/workspace/cst352/sqlConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/labs/lab9/adoptions.php(3): getConnection('pets')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 19
+[09-Dec-2018 03:01:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'pets'' in /home/ubuntu/workspace/cst352/sqlConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/labs/lab9/adoptions.php(3): getConnection('pets')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 19
+[09-Dec-2018 03:05:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'pets'' in /home/ubuntu/workspace/cst352/sqlConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/labs/lab9/adoptions.php(3): getConnection('pets')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 19
+[09-Dec-2018 03:05:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'pets'' in /home/ubuntu/workspace/cst352/sqlConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/labs/lab9/adoptions.php(3): getConnection('pets')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 19
+[09-Dec-2018 03:05:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'pets'' in /home/ubuntu/workspace/cst352/sqlConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/sqlConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/labs/lab9/adoptions.php(3): getConnection('pets')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/sqlConnection.php on line 19

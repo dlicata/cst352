@@ -1,0 +1,25 @@
+[06-Dec-2018 19:06:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'one' cannot be null' in /home/ubuntu/workspace/cst352/practice/videorating/index.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/videorating/index.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/videorating/index.php on line 25
+[06-Dec-2018 19:26:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1' in /home/ubuntu/workspace/cst352/practice/videorating/index.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/videorating/index.php(28): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/videorating/index.php on line 28
+[06-Dec-2018 19:29:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1' in /home/ubuntu/workspace/cst352/practice/videorating/index.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/videorating/index.php(29): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/videorating/index.php on line 29
+[06-Dec-2018 19:30:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1' in /home/ubuntu/workspace/cst352/practice/videorating/index.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/videorating/index.php(29): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/videorating/index.php on line 29
+[06-Dec-2018 19:50:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1' in /home/ubuntu/workspace/cst352/practice/videorating/index.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/practice/videorating/index.php(12): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/practice/videorating/index.php on line 12
